@@ -1,0 +1,6 @@
+
+
+```{r}
+## format day of the week
+Sys.setenv(DAY_OF_THE_WEEK = format(Sys.Date(), "%A"))
+```

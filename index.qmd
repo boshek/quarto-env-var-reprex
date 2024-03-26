@@ -1,0 +1,31 @@
+---
+title: "Pass environment variables"
+---
+
+{{< include set-vars.qmd >}}
+
+## From `_environment`
+
+```{r}
+Sys.getenv("FROM_ENV_FILE")
+```
+
+## From `set-vars.qmd`
+
+```{r}
+Sys.getenv("DAY_OF_THE_WEEK")
+```
+
+## From pre-process.R using _environment-dynamic
+
+```{r}
+Sys.getenv("MONTH-DYNAMIC")
+```
+
+
+## From pre-process.R by appending to _environment
+
+```{r}
+Sys.getenv("MONTH")
+```
+

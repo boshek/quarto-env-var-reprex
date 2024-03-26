@@ -1,0 +1,22 @@
+project:
+  type: website
+  pre-render: 
+    - pre-process.R
+  post-render:
+    - post-process.R
+
+website:
+  title: "."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    self-contained: true
+
+
+
