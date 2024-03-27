@@ -15,7 +15,7 @@ Sys.getenv("DAY_OF_THE_WEEK")
 ## From pre-process.R using _environment-dynamic
 
 ```{r}
-Sys.getenv("MONTH-DYNAMIC")
+Sys.getenv("MONTH_DYNAMIC")
 ```
 
 
